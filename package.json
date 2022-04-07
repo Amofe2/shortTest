@@ -1,0 +1,29 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress run",
+    "test": "npm run clean:reports",
+    "merge:reports": "mochawesome-merge mochawesome-report/*.json > cypress-tests-report.json",
+    "create:html:report": "marge --reportDir TestReport cypress-tests-report.json",
+    "generate:html:report": "npm run merge:reports && run create:html:report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1",
+    "mochawesome-report-generator": "^6.2.0",
+    "puppeteer": "^13.5.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

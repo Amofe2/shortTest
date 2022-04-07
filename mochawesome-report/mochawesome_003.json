@@ -1,0 +1,166 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 3,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-04-07T21:35:58.339Z",
+    "end": "2022-04-07T21:36:26.773Z",
+    "duration": 28434,
+    "testsRegistered": 4,
+    "passPercent": 75,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c93e123d-3966-45e6-a92e-cb934d976e53",
+      "title": "",
+      "fullFile": "cypress/integration/login.feature",
+      "file": "cypress/integration/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f7735541-7c91-46f2-a462-ae4d48bcdef0",
+          "title": "Login Feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Success Login",
+              "fullTitle": "Login Feature Success Login",
+              "timedOut": null,
+              "duration": 22038,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Error!' but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Error!' but never did.\n    at Context.eval (https://login.sentryc.com/__cypress/tests?p=cypress/integration/login.feature:55:25)\n    at Context.resolveAndRunStepDefinition (https://login.sentryc.com/__cypress/tests?p=cypress/integration/login.feature:12460:29)\n    at Context.eval (https://login.sentryc.com/__cypress/tests?p=cypress/integration/login.feature:11781:35)",
+                "diff": null
+              },
+              "uuid": "314e8686-a9a7-4cb7-98a4-8e282aad1c37",
+              "parentUUID": "f7735541-7c91-46f2-a462-ae4d48bcdef0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Reset Password",
+              "fullTitle": "Login Feature Reset Password",
+              "timedOut": null,
+              "duration": 2509,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "6b1e0dc7-0876-4474-9aeb-08c7bd72bbcf",
+              "parentUUID": "f7735541-7c91-46f2-a462-ae4d48bcdef0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SENTRYC TERMS",
+              "fullTitle": "Login Feature SENTRYC TERMS",
+              "timedOut": null,
+              "duration": 833,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8016f9f4-b366-4495-ac4f-b0c9657d380d",
+              "parentUUID": "f7735541-7c91-46f2-a462-ae4d48bcdef0",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SENTRYC CONDITIONS",
+              "fullTitle": "Login Feature SENTRYC CONDITIONS",
+              "timedOut": null,
+              "duration": 2711,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "35beb4a9-db5a-4ae7-b528-b28f80fcddd9",
+              "parentUUID": "f7735541-7c91-46f2-a462-ae4d48bcdef0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6b1e0dc7-0876-4474-9aeb-08c7bd72bbcf",
+            "8016f9f4-b366-4495-ac4f-b0c9657d380d",
+            "35beb4a9-db5a-4ae7-b528-b28f80fcddd9"
+          ],
+          "failures": [
+            "314e8686-a9a7-4cb7-98a4-8e282aad1c37"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 28091,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

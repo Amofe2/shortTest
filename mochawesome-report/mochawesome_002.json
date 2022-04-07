@@ -1,0 +1,161 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-07T21:31:37.000Z",
+    "end": "2022-04-07T21:31:58.793Z",
+    "duration": 21793,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4be481aa-d4fb-4368-b6a6-570ee30eeb2e",
+      "title": "",
+      "fullFile": "cypress/integration/login.feature",
+      "file": "cypress/integration/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5c9c0ba9-265e-4c54-9a5c-b973aef5b942",
+          "title": "Login Feature",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Success Login",
+              "fullTitle": "Login Feature Success Login",
+              "timedOut": null,
+              "duration": 18646,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b64d3402-53f5-471e-8a1e-8a35461c4de0",
+              "parentUUID": "5c9c0ba9-265e-4c54-9a5c-b973aef5b942",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Reset Password",
+              "fullTitle": "Login Feature Reset Password",
+              "timedOut": null,
+              "duration": 1850,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f8596800-f1bf-4f8c-a069-b6d5b9bba437",
+              "parentUUID": "5c9c0ba9-265e-4c54-9a5c-b973aef5b942",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SENTRYC TERMS",
+              "fullTitle": "Login Feature SENTRYC TERMS",
+              "timedOut": null,
+              "duration": 567,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0cd2cde5-8e1b-4ea2-bf8d-335352eae2ae",
+              "parentUUID": "5c9c0ba9-265e-4c54-9a5c-b973aef5b942",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SENTRYC CONDITIONS",
+              "fullTitle": "Login Feature SENTRYC CONDITIONS",
+              "timedOut": null,
+              "duration": 543,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "54ce4ee6-aa40-491e-8c2a-c6a12c460e11",
+              "parentUUID": "5c9c0ba9-265e-4c54-9a5c-b973aef5b942",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b64d3402-53f5-471e-8a1e-8a35461c4de0",
+            "f8596800-f1bf-4f8c-a069-b6d5b9bba437",
+            "0cd2cde5-8e1b-4ea2-bf8d-335352eae2ae",
+            "54ce4ee6-aa40-491e-8c2a-c6a12c460e11"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21606,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

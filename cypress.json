@@ -1,0 +1,15 @@
+{
+    "reporter": "./node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+      "overwrite": false,
+      "html": false,
+      "json": true
+    },
+  
+    "env": {
+      "Tags": "@focus"
+    },
+    "testFiles": "**/*.{feature,features}",
+    "chromeWebSecurity": false,
+    "baseUrl": "https://login.sentryc.com/auth/login"
+  }
